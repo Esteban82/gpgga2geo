@@ -41,3 +41,11 @@ sentence = '$GPGGA,123519,4807.038,N,01131.000,E,1,08,0.9,545.4,M,46.9,M,,*47'
 coords = gpgga_to_coords(sentence)
 print(coords)
 # Output: (48.117297, 11.516667)
+
+# Ejemplo Viedma
+sentence= '$GPGGA,125227,4931.7924,S,07242.9195,W,2,11,0.7,259.1,M,12.4,M,,*40'
+coords = gpgga_to_coords(sentence)
+print(coords)
+# Output: (-49.529873333333335, -72.715325)
+
+
